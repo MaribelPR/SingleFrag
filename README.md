@@ -11,7 +11,7 @@ Metabolite and small molecule identification via MS/MS involves matching experim
 
 ### Authors
 
-Maribel Pérez-Ribera^a^, Muhammad Faizan Khan^b^, Roger Giné^b^, Josep M. Badia^b^, Sandra
+Maribel Pérez-Ribera<sup>a</sup>, Muhammad Faizan Khan^b^, Roger Giné^b^, Josep M. Badia^b^, Sandra
 Junza^b^, Oscar Yanes^b,c^, Marta Sales-Pardo^a,*^, and Roger Guimerà^a,d,*^
 
 ^a^Department of Chemical Engineering, Universitat Rovira i Virgili, 43007 Tarragona, Catalonia
@@ -60,6 +60,7 @@ Regarding the input file format (*inputMols_git.xlsx*):
 Inside the *data.zip* folder, we already find a toy example of an input file. This contains 4 columns:
 
 smiles  \         name  \              spectrum  \            link
+
 0  CCC(=O)C(O)=O  2-Ketobutyric acid   [27.0, 28.0, 29.0...   https://hmdb.ca/spectra/ms_ms/1473314 
 
 Where the SMILES is the molecule format that we use as an input to our model, the NAME is how the molecule is called and its SPECTRUM is found in https://hmdb.ca/spectra/ms_ms/1473314 using MS/MS in positive mode. However, this is a toy example as our model is able to predict the fragments with more resolution (considering 2 decimals) and this spectrum format only contains integers. Additionally, what we only need as an input to our models is the SMILES of the molecule, so the rest information is complementary, except the SPECTRUM which we may need in case we want to compare the prediction of our tool with an experimental spectrum. 
