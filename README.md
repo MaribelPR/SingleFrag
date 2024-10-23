@@ -11,14 +11,14 @@ Metabolite and small molecule identification via MS/MS involves matching experim
 
 ### Authors
 
-Maribel Pérez-Ribera<sup>a</sup>, Muhammad Faizan Khan^b^, Roger Giné^b^, Josep M. Badia^b^, Sandra
-Junza^b^, Oscar Yanes^b,c^, Marta Sales-Pardo^a,*^, and Roger Guimerà^a,d,*^
+Maribel Pérez-Ribera<sup>a</sup>, Muhammad Faizan Khan<sup>b</sup>, Roger Giné<sup>b</sup>, Josep M. Badia<sup>b</sup>, Sandra
+Junza<sup>b</sup>, Oscar Yanes<sup>b,c</sup>, Marta Sales-Pardo<sup>a,*</sup>, and Roger Guimerà<sup>a,d,*</sup>
 
-^a^Department of Chemical Engineering, Universitat Rovira i Virgili, 43007 Tarragona, Catalonia
-^b^Department of Electronic Engineering, IISPV, Universitat Rovira i Virgili, 43007 Tarragona, Catalonia
-^c^CIBER de Diabetes y Enfermedades Metabólicas Asociadas (CIBERDEM), Instituto de Salud Carlos III, 28029 Madrid, Spain
-^d^ICREA, 08010 Barcelona, Catalonia
-^*^Corresponding authors: Marta Sales-Pardo (E-mail: marta.sales@urv.cat), Roger Guimerà (E-mail: roger.guimera@urv.cat)
+<sup>a</sup>Department of Chemical Engineering, Universitat Rovira i Virgili, 43007 Tarragona, Catalonia
+<sup>b</sup>Department of Electronic Engineering, IISPV, Universitat Rovira i Virgili, 43007 Tarragona, Catalonia
+<sup>c</sup>CIBER de Diabetes y Enfermedades Metabólicas Asociadas (CIBERDEM), Instituto de Salud Carlos III, 28029 Madrid, Spain
+<sup>d</sup>ICREA, 08010 Barcelona, Catalonia
+<sup>*</sup>Corresponding authors: Marta Sales-Pardo (E-mail: marta.sales@urv.cat), Roger Guimerà (E-mail: roger.guimera@urv.cat)
 
 ## Usage
 
@@ -59,9 +59,9 @@ Regarding the input file format (*inputMols_git.xlsx*):
 
 Inside the *data.zip* folder, we already find a toy example of an input file. This contains 4 columns:
 
-smiles  \         name  \              spectrum  \            link
-
-0  CCC(=O)C(O)=O  2-Ketobutyric acid   [27.0, 28.0, 29.0...   https://hmdb.ca/spectra/ms_ms/1473314 
+| smiles            | name               | spectrum                | link                                     |
+|-------------------|--------------------|-------------------------|------------------------------------------|
+| CCC(=O)C(O)=O     | 2-Ketobutyric acid  | [27.0, 28.0, 29.0...]   | [link](https://hmdb.ca/spectra/ms_ms/1473314) |
 
 Where the SMILES is the molecule format that we use as an input to our model, the NAME is how the molecule is called and its SPECTRUM is found in https://hmdb.ca/spectra/ms_ms/1473314 using MS/MS in positive mode. However, this is a toy example as our model is able to predict the fragments with more resolution (considering 2 decimals) and this spectrum format only contains integers. Additionally, what we only need as an input to our models is the SMILES of the molecule, so the rest information is complementary, except the SPECTRUM which we may need in case we want to compare the prediction of our tool with an experimental spectrum. 
 
