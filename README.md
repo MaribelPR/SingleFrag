@@ -15,9 +15,13 @@ Maribel Pérez-Ribera<sup>a</sup>, Muhammad Faizan Khan<sup>b</sup>, Roger Giné
 Junza<sup>b</sup>, Oscar Yanes<sup>b,c</sup>, Marta Sales-Pardo<sup>a,*</sup>, and Roger Guimerà<sup>a,d,*</sup>
 
 <sup>a</sup>Department of Chemical Engineering, Universitat Rovira i Virgili, 43007 Tarragona, Catalonia
+
 <sup>b</sup>Department of Electronic Engineering, IISPV, Universitat Rovira i Virgili, 43007 Tarragona, Catalonia
+
 <sup>c</sup>CIBER de Diabetes y Enfermedades Metabólicas Asociadas (CIBERDEM), Instituto de Salud Carlos III, 28029 Madrid, Spain
+
 <sup>d</sup>ICREA, 08010 Barcelona, Catalonia
+
 <sup>*</sup>Corresponding authors: Marta Sales-Pardo (E-mail: marta.sales@urv.cat), Roger Guimerà (E-mail: roger.guimera@urv.cat)
 
 ## Usage
