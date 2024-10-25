@@ -102,4 +102,4 @@ If we wanted to train the models, we would have to prepare a training, validatio
 
 ## 💭 Feedback and Contributing
 
-TODO: Link to the Discussions tab in our repository (when Public)
+See discussion section: https://github.com/MaribelPR/SingleFrag/discussions 
